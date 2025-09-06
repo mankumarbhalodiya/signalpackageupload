@@ -1,0 +1,56 @@
+Metadata-Version: 2.4
+Name: signal_ManKumar_125
+Version: 1.0.0
+Summary: Python package for signal generation and operations
+Home-page: https://github.com/yourusername/signal_ManKumar_125
+Author: Man Kumar
+Author-email: mankumar@example.com
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy>=1.18.0
+Requires-Dist: matplotlib>=3.1.0
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: license
+Dynamic: license-file
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
+
+# Signal Processing Package – Man Kumar
+
+This Python package provides tools for generating and operating on basic discrete-time signals. It's designed to support students and educators in learning digital signal processing (DSP) concepts.
+
+## 📦 Features
+
+### 📊 Signal Generators
+- **Discrete-time signals**
+  - Unit Step
+  - Unit Impulse
+  - Ramp Signal
+- **Continuous signals**
+  - Sine Wave
+  - Cosine Wave
+  - Exponential Signal
+
+### 🔧 Signal Operations
+- Time Shifting
+- Time Scaling
+- Signal Addition
+- Signal Multiplication
+
+## 📥 Installation
+
+To install the package from TestPyPI:
+
+```bash
+pip install --index-url https://test.pypi.org/simple/ --extra-index-url https://pypi.org/simple signal-ManKumar-125
